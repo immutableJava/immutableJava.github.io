@@ -1,0 +1,265 @@
+* {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+header {
+    position: relative;
+}
+
+nav {
+    height: 53px;
+    background-color: #212121;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 70px;
+    margin: 0;
+    list-style-type: none;
+}
+
+.menu .menu_link {
+    
+    font-weight: 300;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+
+.menu .menu_item {
+    text-decoration: none;
+    display: block;
+    border-right: 2px dotted black;
+    padding-right: 47px;
+}
+
+.subheader {
+    position: absolute;
+    width: 100%;
+    height: 87px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.subheader .subheader_logo {
+    display: block;
+    margin-top: 16px;
+    max-width: 100%;
+}
+
+.subheader .subheader_official {
+    margin-top: 6px;
+    opacity: 0.5;
+    font-weight: 100;
+    font-size: 13px;
+    color: #FFFFFF;
+
+}
+
+.subheader .subheader_call_text {
+    margin-top: 19px;
+    padding-right: 37px;
+    font-weight: 300;
+    font-size: 12px;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.subheader .subheader_call_number {
+    font-weight: 400;
+    font-size: 22px;
+    text-align: right;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.subheader .subheader_btn {
+    margin: 22px 0 19px;
+    width: 172px;
+    height: 46px;
+    background: linear-gradient(0deg, $main_color 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    border: none;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+}
+
+.promo {
+    min-height: 714px;
+    background: url("../img/background/uber_bg.png") center center/cover no-repeat;
+    padding: 152px 0 185px 0;
+}
+
+.promo .promo_header {
+    font-weight: 700;
+    font-size: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 60px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.promo .promo_subheader {
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 36px;
+    color: #FFFFFF;
+    margin: 0;
+    margin-top: 22px;
+}
+
+.promo .promo_descr {
+    font-weight: 400;
+    margin-top: 16px;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.promo .promo_btn {
+    display: block;
+    margin: 116px auto 0 auto;
+    width: 259px;
+    height: 63px;
+    background: linear-gradient(0deg, $main_color 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.12);
+    border: none;
+    border-radius: 4px;
+
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+}
+
+.advantages {
+    min-height: 849px;
+    padding: 18px 0 64px 0;
+}
+
+.advantages_header {
+    display: block;
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 11px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    padding: 8px 0 8px 0;
+
+    width: 115px;
+    height: 27px;
+    background: #000000;
+}
+
+.advantages_subheader {
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 48px;
+    margin-top: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    color: $black;
+}
+
+.left .advantages_autopay {
+    width: 116px;
+    height: 116px;
+    border-radius: 100%;
+    background: $main_color;
+    margin-top: 62px;
+    padding: 25px 0 0 17px;
+}
+
+.left .advantages_guarranted {
+    width: 116px;
+    height: 116px;
+    border-radius: 100%;
+    background: $main_color;
+    margin-top: 62px;
+    padding: 33px 0 0 19px;
+}
+
+.left .advantages_comfort {
+    width: 116px;
+    height: 116px;
+    border-radius: 100%;
+    background: $main_color;
+    margin-top: 62px;
+    padding: 20px 0 0 33px;
+}
+
+.left .advantages_support {
+    width: 116px;
+    height: 116px;
+    border-radius: 100%;
+    background: $main_color;
+    margin-top: 39px;
+    padding: 22px 0 0 16px;
+}
+
+.advantages_text{
+    font-weight: 300;
+    line-height: 21px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: -135px;
+}
+
+.advantages_text span {
+    font-weight: 400;
+    letter-spacing: 0px;
+    text-align: left;
+    color: $main_color;
+}
+
+.right .advantages_payments{
+    width: 116px;
+    height: 116px;
+    border-radius: 100%;
+    background: $main_color;
+    margin-top: 62px;
+    padding: 24px 0 0 24px;
+}
+
+.right .advantages_time{
+    width: 116px;
+    height: 116px;
+    border-radius: 100%;
+    background: $main_color;
+    margin-top: 62px;
+    padding: 21px 0 0 18px;
+}
+
+.right .advantages_orders{
+    width: 116px;
+    height: 116px;
+    border-radius: 100%;
+    background: $main_color;
+    margin-top: 62px;
+    padding: 25px 0 0 26px;
+} 
+.right .advantages_clearcar{
+    width: 116px;
+    height: 116px;
+    border-radius: 100%;
+        margin-top: 39px;
+    background: $main_color;
+    padding: 24px 0 0 19px;
+}
